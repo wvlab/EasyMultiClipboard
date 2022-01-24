@@ -2,6 +2,7 @@
 Python script written to handle more than one string in clipboard
 
 You need to install dependencies
+
 Windows:
 ```
 pip install -requirements.txt
