@@ -13,4 +13,5 @@ sudo pip3 install -requirements.txt
 ```
 
 Use **Ctrl + Space + num** to insert value to cell
+
 Use **Ctrl + Alt + num** to get value from cell
