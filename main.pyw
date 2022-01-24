@@ -8,12 +8,12 @@ def change(key):
     global data
     if data[key] is not None:
         clip.copy(data[key])
-    print("change")
+    return
 
 def insert(key):
     global data
     data[key] = clip.paste()
-    print("insert")
+    return
 
 for i in range(10):
     keyboard.add_hotkey(f'Ctrl+Space+{i}', change, args=[i])
